@@ -17,6 +17,10 @@ import usersinterfaces.HomePage;
 
 import java.util.concurrent.TimeUnit;
 
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isPresent;
+import static net.thucydides.core.matchers.BeanMatchers.the;
+
 public class ShoopingCartStepDef {
 
     @Managed(driver = "chrome")
@@ -37,7 +41,6 @@ public class ShoopingCartStepDef {
         actor.wasAbleTo(
                 AddProducts.shoppingCart()
         );
-        navegador.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
     }
 

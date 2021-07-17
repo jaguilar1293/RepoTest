@@ -11,6 +11,5 @@ public class HomePage extends PageObject {
     public static final Target ADD_PRODUCTONE = Target.the("Boton para seleccionar productonumero uno").locatedBy("(//*[@class='style__button__1MgdH style__addToCart__9TqqV style__beacon__2ECwE ProductGridItem__addToCartBtn__2nB4J style__small__1WMMU style__disableInternalPointerEvents__1ECVO'])[1]");
     public static final Target ADD_PRODUCTTWO = Target.the("Boton para seleccionar producto numero dos").locatedBy("(//*[@class='style__button__1MgdH style__addToCart__9TqqV style__beacon__2ECwE ProductGridItem__addToCartBtn__2nB4J style__small__1WMMU style__disableInternalPointerEvents__1ECVO'])[2]");
     public static final Target BUTTON_CART = Target.the("Boton del carrito").located(By.id("nav-cart-count"));
-    public static final Target BUTTON_DELECT_PRODUCT = Target.the("Eliminar producto del carito").located(By.name("submit.delete.C54244662-56b4-4b4e-a0e7-455f05c2ae24"));
 
 }
