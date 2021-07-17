@@ -1,0 +1,7 @@
+Comando Git
+
+git init
+git commit -m
+git status
+git remote add origin https://github.com/jaguilar1293/RepoTest.git
+git push -u origin main
