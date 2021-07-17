@@ -9,6 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/Features/Shopping/ShoppingCart.feature",
         glue = "StepDefinitions",
+        tags = "@Test",
         snippets = SnippetType.CAMELCASE
 )
 
